@@ -76,7 +76,7 @@ ul.social-icons li a:hover {
 	text-align:left;
 	padding:47px 0;
 }
-.skills .ps, .skills .ai, .skills .html, .skills .css {
+.skills .ps, .skills .java, .skills .html, .skills .css, .skills .php, .skills .cs, .skills .cpp, .skills .js, .skills .xaml, .skills .sql {
 	padding:25px;
 	width:100px;
 	height:100px;
@@ -94,25 +94,43 @@ ul.social-icons li a:hover {
 .skills .ps {
 	background:#30a5dc;
 }
-.skills .ai {
-	background:#ee742b;
-}
 .skills .html {
 	background:#f04949;
 }
 .skills .css {
 	background:#39d084;
 }
-.skills .ps:hover, .skills .ai:hover, .skills .html:hover, .skills .css:hover {
+.skills .java {
+	background:#ec3d00;
+}
+.skills .php {
+	background:#a8a7a7;
+}
+.skills .cs {
+	background:#2044e0;
+}
+.skills .cpp {
+	background:#39ae00;
+}
+.skills .js {
+	background:#d31f1f;
+}
+.skills .xaml {
+	background:#bb2fe9;
+}
+.skills .sql {
+	background:#ffe178;
+}
+.skills .ps:hover, .skills .java:hover, .skills .html:hover, .skills .css:hover, .skills .php:hover, .skills .cs:hover, .skills .cpp:hover, .skills .js:hover, .skills .xaml:hover, .skills .sql:hover {
 	border:8px solid #fff;
 }
-.skills .ps h3, .skills .ai h3, .skills .html h3, .skills .css h3 {
+.skills .ps h3, .skills .java h3, .skills .html h3, .skills .css h3, .skills .php h3, .skills .cs h3, .skills .cpp h3, .skills .js h3, .skills .xaml h3, .skills .sql h3 {
 	color:#fff;
 	font-size: 3.4em;
 	font-weight: normal;
 	line-height: 80px;
 }
-.skills .html h3, .skills .css h3 {
+.skills .html h3, .skills .css h3, .skills .xaml h3 {
 	font-size: 2.2em;
 }
 .expand-bg {
@@ -140,26 +158,62 @@ ul.social-icons li a:hover {
 	float:right;
 }
 .ps2 {
-	width:90%;
+	width:30%;
 	background:#30a5dc;
 	-moz-animation:html5 2s ease-out;
 	-webkit-animation:html5 2s ease-out;
 }
-.ai2 {
-	width:80%;
-	background:#ee742b;
-	-moz-animation:css3 2s ease-out;
-	-webkit-animation:css3 2s ease-out;
-}
 .html2 {
-	width:75%;
+	width:55%;
 	background:#f04949;
 	-moz-animation:jquery 2s ease-out;
 	-webkit-animation:jquery 2s ease-out;
 }
 .css2 {
-	width:85%;
+	width:40%;
 	background:#39d084;
+	-moz-animation:photoshop 2s ease-out;
+	-webkit-animation:photoshop 2s ease-out;
+}
+.php2 {
+	width:25%;
+	background:#a8a7a7;
+	-moz-animation:html5 2s ease-out;
+	-webkit-animation:html5 2s ease-out;
+}
+.java2 {
+	width:80%;
+	background:#ec3d00;
+	-moz-animation:css3 2s ease-out;
+	-webkit-animation:css3 2s ease-out;
+}
+.cs2 {
+	width:65%;
+	background:#2044e0;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+}
+.cpp2 {
+	width:50%;
+	background:#39ae00;
+	-moz-animation:photoshop 2s ease-out;
+	-webkit-animation:photoshop 2s ease-out;
+}
+.js2 {
+	width:15%;
+	background:#d31f1f;
+	-moz-animation:photoshop 2s ease-out;
+	-webkit-animation:photoshop 2s ease-out;
+}
+.xaml2 {
+	width:35%;
+	background:#bb2fe9;
+	-moz-animation:photoshop 2s ease-out;
+	-webkit-animation:photoshop 2s ease-out;
+}
+.sql2 {
+	width:45%;
+	background:#ffe178;
 	-moz-animation:photoshop 2s ease-out;
 	-webkit-animation:photoshop 2s ease-out;
 }
@@ -168,15 +222,7 @@ ul.social-icons li a:hover {
 width:0px;
 }
 100% {
-width:90%;
-}
-}
-@-moz-keyframes ai2 {
-0% {
-width:0px;
-}
-100% {
-width:80%;
+width:30%;
 }
 }
 @-moz-keyframes html2 {
@@ -184,7 +230,7 @@ width:80%;
 width:0px;
 }
 100% {
-width:75%;
+width:55%;
 }
 }
 @-moz-keyframes css2 {
@@ -192,23 +238,71 @@ width:75%;
 width:0px;
 }
 100% {
-width:85%;
+width:40%;
 }
 }
- @-webkit-keyframes ps2 {
+ @-webkit-keyframes php2 {
 0% {
 width:0px;
 }
 100% {
-width:90%;
+width:25%;
 }
 }
-@-webkit-keyframes ai {
+  @-moz-keyframes java2 {
 0% {
 width:0px;
 }
 100% {
 width:80%;
+}
+}
+@-moz-keyframes cs2 {
+0% {
+width:0px;
+}
+100% {
+width:65%;
+}
+}
+@-moz-keyframes cpp2 {
+0% {
+width:0px;
+}
+100% {
+width:50%;
+}
+}
+@-moz-keyframes js2 {
+0% {
+width:0px;
+}
+100% {
+width:15%;
+}
+}
+ @-webkit-keyframes xaml2 {
+0% {
+width:0px;
+}
+100% {
+width:35%;
+}
+}
+  @-webkit-keyframes sql2 {
+0% {
+width:0px;
+}
+100% {
+width:45%;
+}
+}
+   @-moz-keyframes ps {
+0% {
+width:0px;
+}
+100% {
+width:30%;
 }
 }
 @-webkit-keyframes html {
@@ -225,6 +319,62 @@ width:0px;
 }
 100% {
 width:85%;
+}
+}
+ @-webkit-keyframes php {
+0% {
+width:0px;
+}
+100% {
+width:25%;
+}
+}
+  @-moz-keyframes java {
+0% {
+width:0px;
+}
+100% {
+width:80%;
+}
+}
+@-moz-keyframes cs {
+0% {
+width:0px;
+}
+100% {
+width:65%;
+}
+}
+@-moz-keyframes cpp {
+0% {
+width:0px;
+}
+100% {
+width:50%;
+}
+}
+@-moz-keyframes js {
+0% {
+width:0px;
+}
+100% {
+width:15%;
+}
+}
+ @-webkit-keyframes xaml {
+0% {
+width:0px;
+}
+100% {
+width:35%;
+}
+}
+  @-webkit-keyframes sql {
+0% {
+width:0px;
+}
+100% {
+width:45%;
 }
 }
 /**** Work container *****/
