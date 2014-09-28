@@ -29,6 +29,10 @@ a.brand img {
 .profile .container .span5 {
 	padding:40px 0;
 }
+#myModalContact
+{
+    color:black;
+}
 a.hire-me {
 	display: inline-block;
     *display: inline;
